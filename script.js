@@ -609,19 +609,19 @@
   //   //   //       записати кожного юзера в свій блок за допомоги document.createElement,
   //   //   //       розділивши всі властивості по своїм блокам(div > div * 4) -
 
-  for (let i = 0; i < users.length; i++) {
-      let user = document.createElement("div");
-      document.body.appendChild(user);
-      for (const key in users[i]) {
-          let user1 = document.createElement("div");
-          user1.innerText = key;
-          user.appendChild(user1);
-          user.style.height = "100px";
-          user.style.backgroundColor = "rgb(" + i * 15 + "," + i * 25 + "," + i * 40 + ")"
+  //   for (let i = 0; i < users.length; i++) {
+  //       let user = document.createElement("div");
+  //       document.body.appendChild(user);
+  //       for (const key in users[i]) {
+  //           let user1 = document.createElement("div");
+  //           user1.innerText = key;
+  //           user.appendChild(user1);
+  //           user.style.height = "100px";
+  //           user.style.backgroundColor = "rgb(" + i * 15 + "," + i * 25 + "," + i * 40 + ")"
 
-      }
+  //       }
 
-  }
+  //   }
 
   //  //  За допомоги циклу проітерувати масив users,
   //   //       записати кожного юзера в свій блок за допомоги document.createElement,
