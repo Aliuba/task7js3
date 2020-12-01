@@ -589,7 +589,7 @@
   //   for (const iterator of users) {
   //       console.log(iterator.address)
   //   }
-
+  // треную git
 
 
   //   //       За допомоги циклу проітерувати масив users,
