@@ -636,9 +636,7 @@
 
   //   Запхала адреси
   for (const iterator of users) {
-      //   console.log(iterator, "iterator")
-      //   console.log(Object.values(iterator))
-      //   console.log(Object.keys(iterator))
+
       let divMain = document.createElement("div")
       divMain.style = "width: 300px; border: tomato 1px solid; margin:30px"
       divMain.innerText = iterator.name
