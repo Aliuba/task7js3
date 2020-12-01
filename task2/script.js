@@ -630,35 +630,6 @@
   //   //       розділивши всі властивості по своїм блокам, блок з адресою зробити окремим блоком,
   //   //       з блоками для кожної властивості
 
-  //   Щось не знаю як запхати в блок адрес, ці адреси...
-
-
-  for (let i = 0; i < users.length; i++) {
-      let user = document.createElement("div");
-      document.body.appendChild(user);
-      //   console.log(users[i].address)
-
-      let user1 = document.createElement("div");
-      //   user1.innerText = key;
-      user.appendChild(user1);
-      console.log(Object.values(users[i].address))
-      for (const key in users[i]) {
-          let user1 = document.createElement("div");
-          user1.innerText = key;
-          user.appendChild(user1);
-
-      }
-      for (const iterator of Object.values(users[i].address)) {
-          let user2 = document.createElement("div");
-          user1.appendChild(user2)
-          console.log(iterator)
-          user2.innerText = iterator
-
-      }
-      user1.style.height = "20px"
-      user.style.height = "100px";
-      user.style.backgroundColor = "rgb(" + i * 15 + "," + i * 25 + "," + i * 40 + ")"
-  }
 
 
   // - Дано 2 масиви з рівною кількістю об'єктів.
